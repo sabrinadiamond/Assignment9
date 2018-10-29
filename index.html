@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+	<title>Javascript Halloween</title>
+	<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+</head>
+<body>
+		<img id="pic1" src="media/ghost.png">
+		<img id="pic6" src="media/ghost.png">	
+		<img id="pic2" src="media/ghost.png">	
+		<img id="pic3" src="media/ghost.png">	
+		<img id="pic4" src="media/ghost.png">	
+		<img id="pic5" src="media/ghost.png">
+	<p id="spooky">ghosts are</p>
+
+
+	<script type="text/javascript">
+		document.addEventListener("click", function(event){
+			console.log(event);
+		});
+
+		document.getElementTagName("img").addEventListener("keypress", function(event) {
+			document.getElementById("spooky").innerHTML = "SPOOoooOOoOoOKY";
+
+		});
+
+	</script>
+	
+
+</body>
+</html>
